@@ -1,16 +1,31 @@
-# Student Manager Plugin
+🎓 Student Manager Plugin
+Một Plugin WordPress chuyên nghiệp hỗ trợ quản lý thông tin sinh viên, được xây dựng với cấu trúc chuẩn nhằm tối ưu khả năng quản trị và hiển thị dữ liệu linh hoạt qua Shortcode.
 
-Plugin quản lý thông tin sinh viên dành cho WordPress.
+🔗 Trải nghiệm dự án
+Môi trường chạy: WordPress 6.x / PHP 7.4+
 
-## Tính năng
-- Đăng ký Custom Post Type "Sinh viên".
-- Meta Box tùy chỉnh: MSSV, Lớp (Dropdown), Ngày sinh (Date).
-- Hiển thị danh sách sinh viên qua Shortcode `[danh_sach_sinh_vien]`.
+🧰 Tech Stack
+Core: PHP (WordPress Plugin API)
 
-## Cách cài đặt
-1. Giải nén file `student-manager.zip`.
-2. Copy thư mục vào `wp-content/plugins/`.
-3. Kích hoạt plugin trong giao diện Admin WordPress.
+Database: MySQL (Custom Post Type & Meta Data)
+
+UI Styling: CSS3 (Custom Table Design)
+
+Security: Nonce Verification & Data Sanitization
+
+Architecture: Modular-based architecture (Chia nhỏ file logic)
+
+🌐 Project Overview
+Dự án được thiết kế nhằm cung cấp hệ thống quản lý sinh viên nội bộ đơn giản, bảo mật và dễ dàng tích hợp vào bất kỳ trang web WordPress nào.
+
+🎯 Mục tiêu
+Quản trị tập trung: Tạo khu vực "Sinh viên" riêng biệt trong Dashboard.
+
+Dữ liệu tùy biến: Hỗ trợ nhập MSSV, Chuyên ngành và Ngày sinh chính xác.
+
+Hiển thị linh hoạt: Sử dụng Shortcode [danh_sach_sinh_vien] để nhúng bảng dữ liệu vào bất kỳ trang nào.
+
+Bảo mật tối đa: Xử lý dữ liệu an toàn, chống các cuộc tấn công XSS và đảm bảo tính toàn vẹn dữ liệu khi lưu trữ.
 
 ## Ảnh chụp kết quả
 ![Admin Preview](./assets/admin-preview.png)
